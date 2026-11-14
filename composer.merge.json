@@ -1,0 +1,8 @@
+{
+  "require": { "nwidart/laravel-modules": "^11.0 || ^12.0", "wikimedia/composer-merge-plugin": "^2.1" },
+  "extra": {
+    "laravel": { "dont-discover": [] },
+    "merge-plugin": { "include": ["Modules/*/composer.json"] }
+  },
+  "config": { "allow-plugins": { "wikimedia/composer-merge-plugin": true } }
+}
